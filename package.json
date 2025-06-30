@@ -8,6 +8,8 @@
 		"cp": "cd scripts/commands && bash create-page.sh",
 		"pd": "cd scripts/commands && bash parse-data.sh",
 		"learn": "cd scripts/commands && bash cli-learn.sh",
+		"gh": "git log --pretty=format:\"%ad | %h | %s\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"backup": "bash -c 'git archive --format=zip HEAD -o \"../BACKUP/datapod-for-react-bash-json-$(date +%F-%H-%M-%S).zip\"'",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
