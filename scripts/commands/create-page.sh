@@ -1,3 +1,5 @@
+#!/bin/bash
+
 source ../qtools/qdev.sh
 source ../qtools/qcli.sh
 
